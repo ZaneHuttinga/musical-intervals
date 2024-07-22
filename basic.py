@@ -7,23 +7,26 @@ first = list(basic.iloc[0:7,0])
 
 intervals = ['second', 'third', 'fourth', 'fifth', 'sixth', 'seventh']
 
-root_note = random.choice(first)
-for i in range(7):
-    if root_note == basic.iloc[i,0]:
-        root_index = i
+def quiz():
+    root_note = random.choice(first)
+    for i in range(7):
+        if root_note == basic.iloc[i,0]:
+            root_index = i
 
-interval = random.choice(intervals)
-for j in range(6):
-    if interval == intervals[j]:
-        interval_index = j
+    interval = random.choice(intervals)
+    for j in range(6):
+        if interval == intervals[j]:
+            interval_index = j
 
-print(interval_index)
+    print(f'The root note is {root_note}. What is the {interval}?\n')
 
-print(f'\nThe root note is {root_note}. What is the {interval}?\n')
+    x = input()
 
-x = input()
+    if x == basic.iloc[root_index,interval_index+1]:
+        print('\nCorrect.\n')
+        quiz()
+    else:
+        print('\nTry again.\n')
+        
 
-if x == basic.iloc[root_index,interval_index+1]:
-    print('\nCorrect.\n')
-else:
-    print('\nTry again.\n')
+quiz()
