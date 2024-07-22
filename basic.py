@@ -18,15 +18,24 @@ def quiz():
         if interval == intervals[j]:
             interval_index = j
 
-    print(f'The root note is {root_note}. What is the {interval}?\n')
+    print(f'\nThe root note is {root_note}. What is the {interval}?\n')
 
     x = input()
 
+    def try_again():
+        x = input()
+        if x == basic.iloc[root_index,interval_index+1]:
+            print('\nCorrect.')
+            quiz()
+        else:
+            print('\nTry again.\n')
+            try_again()
+
     if x == basic.iloc[root_index,interval_index+1]:
-        print('\nCorrect.\n')
+        print('\nCorrect.')
         quiz()
     else:
         print('\nTry again.\n')
-        
+        try_again()
 
 quiz()
