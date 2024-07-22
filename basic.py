@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-basic = pd.read_csv('musical-intervals/intervals.csv', usecols=[*range(0,7)])
+basic = pd.read_csv('intervals.csv', usecols=[*range(0,7)])
 
 first = list(basic.iloc[0:7,0])
 
@@ -41,5 +41,7 @@ def quiz():
     else:
         print('\nTry again.\n')
         try_again()
+
+print(f'\nTYPE "stop" AT ANY TIME TO LEAVE THE QUIZ.')
 
 quiz()
