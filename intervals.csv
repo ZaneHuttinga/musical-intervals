@@ -1,10 +1,10 @@
 first,second,third,fourth,fifth,sixth,seventh,,root note,minor second,major second,minor third,major third,perfect fourth,augmented fourth,diminished fifth,perfect fifth,minor sixth,major sixth,minor seventh,major seventh
-B,C,D,E,F,G,A,,B sharp,C sharp,,D sharp,,E sharp,,F sharp,,G sharp,,A sharp,
-E,F,G,A,B,C,D,,E sharp,F sharp,,G sharp,,A sharp,,B,B sharp,C sharp,,D sharp,
-A,B,C,D,E,F,G,,A sharp,B,B sharp,C sharp,,D sharp,,E,E sharp,F sharp,,G sharp,
-D,E,F,G,A,B,C,,D sharp,E,E sharp,F sharp,,G sharp,,A,A sharp,B,B sharp,C sharp,
-G,A,B,C,D,E,F,,G sharp,A,A sharp,B,B sharp,C sharp,,D,D sharp,E,E sharp,F sharp,
-C,D,E,F,G,A,B,,C sharp,D,D sharp,E,E sharp,F sharp,,G,G sharp,A,A sharp,B,B sharp
+B,C,D,E,F,G,A,,B sharp,C sharp,DNE,D sharp,DNE,E sharp,DNE,F sharp,DNE,G sharp,DNE,A sharp,DNE
+E,F,G,A,B,C,D,,E sharp,F sharp,DNE,G sharp,DNE,A sharp,DNE,B,B sharp,C sharp,DNE,D sharp,DNE
+A,B,C,D,E,F,G,,A sharp,B,B sharp,C sharp,DNE,D sharp,DNE,E,E sharp,F sharp,DNE,G sharp,DNE
+D,E,F,G,A,B,C,,D sharp,E,E sharp,F sharp,DNE,G sharp,DNE,A,A sharp,B,B sharp,C sharp,DNE
+G,A,B,C,D,E,F,,G sharp,A,A sharp,B,B sharp,C sharp,DNE,D,D sharp,E,E sharp,F sharp,DNE
+C,D,E,F,G,A,B,,C sharp,D,D sharp,E,E sharp,F sharp,DNE,G,G sharp,A,A sharp,B,B sharp
 F,G,A,B,C,D,E,,F sharp,G,G sharp,A,A sharp,B,B sharp,C,C sharp,D,D sharp,E,E sharp
 ,,,,,,,,B,C,C sharp,D,D sharp,E,E sharp,F,F sharp,G,G sharp,A,A sharp
 ,,,,,,,,E,F,F sharp,G,G sharp,A,A sharp,B flat,B,C,C sharp,D,D sharp
@@ -14,9 +14,9 @@ F,G,A,B,C,D,E,,F sharp,G,G sharp,A,A sharp,B,B sharp,C,C sharp,D,D sharp,E,E sha
 ,,,,,,,,C,D flat,D,E flat,E,F,F sharp,G flat,G,A flat,A,B flat,B
 ,,,,,,,,F,G flat,G,A flat,A,B flat,B,C flat,C,D flat,D,E flat,E
 ,,,,,,,,B flat,C flat,C,D flat,D,E flat,E,F flat,F,G flat,G,A flat,A
-,,,,,,,,E flat,F flat,F,G flat,G,A flat,A,,B flat,C flat,C,D flat,D
-,,,,,,,,A flat,,B flat,C flat,C,D flat,D,,E flat,F flat,F,G flat,G
-,,,,,,,,D flat,,E flat,F flat,F,G flat,G,,A flat,,B flat,C flat,C
-,,,,,,,,G flat,,A flat,,B flat,C flat,C,,D flat,,E flat,F flat,F
-,,,,,,,,C flat,,D flat,,E flat,F flat,F,,G flat,,A flat,,B flat
-,,,,,,,,F flat,,G flat,,A flat,,B flat,,C flat,,D flat,,E flat
+,,,,,,,,E flat,F flat,F,G flat,G,A flat,A,DNE,B flat,C flat,C,D flat,D
+,,,,,,,,A flat,DNE,B flat,C flat,C,D flat,D,DNE,E flat,F flat,F,G flat,G
+,,,,,,,,D flat,DNE,E flat,F flat,F,G flat,G,DNE,A flat,DNE,B flat,C flat,C
+,,,,,,,,G flat,DNE,A flat,DNE,B flat,C flat,C,DNE,D flat,DNE,E flat,F flat,F
+,,,,,,,,C flat,DNE,D flat,DNE,E flat,F flat,F,DNE,G flat,DNE,A flat,DNE,B flat
+,,,,,,,,F flat,DNE,G flat,DNE,A flat,DNE,B flat,DNE,C flat,DNE,D flat,DNE,E flat
