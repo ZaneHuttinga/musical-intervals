@@ -27,6 +27,8 @@ def quiz():
         if x == basic.iloc[root_index,interval_index+1]:
             print('\nCorrect.')
             quiz()
+        elif x == 'stop':
+            return
         else:
             print('\nTry again.\n')
             try_again()
@@ -34,6 +36,8 @@ def quiz():
     if x == basic.iloc[root_index,interval_index+1]:
         print('\nCorrect.')
         quiz()
+    elif x == 'stop':
+        return
     else:
         print('\nTry again.\n')
         try_again()
